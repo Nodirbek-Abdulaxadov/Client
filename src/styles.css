@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+/* Order */
+@layer reset, primeng;
+
+/* Reset CSS */
+@layer reset {
+    /* CSS to Reset */
+}
+
+/* Example of PrimeNG button styles */
+.p-button:focus {
+    box-shadow: 0 0 0 0px white; /* Ensure this is present */
+    border-color: #fff; /* Ensure border color is set */
+  }
+  
